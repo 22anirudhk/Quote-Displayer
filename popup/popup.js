@@ -27,16 +27,17 @@ function changeWindow() {
     //Change the quote and source
     var quoteIndex = Math.floor((Math.random() * knownQuotes.length));
     
-    while(lastQuoteIndex == quoteIndex) {
+    while(localStorage["lastQuoteIndex"] == quoteIndex) {
         quoteIndex = Math.floor((Math.random() * knownQuotes.length));
     }
     
     var quoteEl = document.getElementById("quote");
     var sourceEl = document.getElementById("source");
 
-    quoteEl.innerHTML = knownQuotes[quoteIndex];
+    quoteEl.innerHTML = "\"" + knownQuotes[quoteIndex] + "\"";
     sourceEl.innerHTML = knownSources[quoteIndex];
-    lastQuoteIndex = knownQuotes[quoteIndex];
+    lastQuoteIndex = quoteIndex;
+    localStorage["lastQuoteIndex"] = lastQuoteIndex;
     
     //Change the background color
     var colorIndex = Math.floor((Math.random() * colorCodes.length));
