@@ -2,7 +2,7 @@
 A chrome extension that displays quotes when clicked. As of right now, the database includes quotes from some Christopher Nolan movies.
 You can find the instructions below the pictures.
 
-##Pictures:
+## Pictures:
 
 <img src="https://i.ibb.co/Jr35Jy8/Screen-Shot-2020-04-11-at-1-33-42-AM.png" alt="Screen-Shot-2020-04-11-at-1-33-42-AM" border="0">
 <img src="https://i.ibb.co/GVDJ4GM/Screen-Shot-2020-04-11-at-1-33-57-AM.png" alt="Screen-Shot-2020-04-11-at-1-33-57-AM" border="0">
