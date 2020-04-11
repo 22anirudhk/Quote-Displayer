@@ -1,5 +1,6 @@
 var knownQuotes = [];
 var knownSources = [];
+var lastQuoteIndex;
 
 var colorCodes = ["#39A2AE", "#71C4C2", "#F7F7F7", "#E8D8D2", "#E3BCB5", "#CDEEE7"];
 
@@ -25,18 +26,27 @@ function removeQuote(quote, source) {
 function changeWindow() {
     //Change the quote and source
     var quoteIndex = Math.floor((Math.random() * knownQuotes.length));
+    
+    while(lastQuoteIndex == quoteIndex) {
+        quoteIndex = Math.floor((Math.random() * knownQuotes.length));
+    }
+    
     var quoteEl = document.getElementById("quote");
     var sourceEl = document.getElementById("source");
 
     quoteEl.innerHTML = knownQuotes[quoteIndex];
     sourceEl.innerHTML = knownSources[quoteIndex];
+    lastQuoteIndex = knownQuotes[quoteIndex];
     
     //Change the background color
     var colorIndex = Math.floor((Math.random() * colorCodes.length));
     document.body.style.backgroundColor = colorCodes[colorIndex];
+
 }
 
-
+document.getElementById("reload-icon").onclick = function reloadPage() {
+    location.reload();
+}
 
 
 addQuote("Well, dreams, they feel real while we're in them right? Its only when we wake up then we realize that something was actually strange.","Inception");

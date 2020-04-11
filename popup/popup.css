@@ -12,9 +12,6 @@
     flex-direction: column;
 }
 
-
-
-
 /* #sourceDiv , #quoteDiv{
     display:flex;
     justify-content: center;
@@ -22,6 +19,13 @@
     flex-flow: row wrap;
     align-items: center;
 } */
+
+#reload-icon {
+    position:absolute;
+    left:570px;
+    top:275px;
+    cursor: pointer;
+}
 
 #quote {
     font-size:300%;
