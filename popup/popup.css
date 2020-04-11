@@ -1,0 +1,40 @@
+#everything {
+    width: 600px;
+    height: 300px;
+    display: flex;    
+}
+
+.textArea {
+    width:700px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+/* #sourceDiv , #quoteDiv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    align-items: center;
+} */
+
+#quote {
+    font-size:300%;
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+
+#source {
+    font-size:175%;
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    text-align:center;
+}
