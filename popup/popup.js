@@ -2,7 +2,7 @@ var knownQuotes = [];
 var knownSources = [];
 var lastQuoteIndex;
 
-var colorCodes = ["#39A2AE", "#71C4C2", "#F7F7F7", "#E8D8D2", "#E3BCB5", "#CDEEE7"];
+var colorCodes = ["#71C4C2", "#F7F7F7", "#E8D8D2", "#E3BCB5", "#CDEEE7", "#FFFFE0"];
 
 function addQuote(quote, source) {
     knownQuotes.push(quote);
@@ -55,13 +55,11 @@ addQuote("Once an idea has taken hold of the brain, it's almost impossible to er
 addQuote("True inspiration is impossible to fake.", "Inception");
 addQuote("Do you want to take a leap of faith, or become an old man filled with regret waiting to die alone?", "Inception");
 addQuote("What is the most resilient parasite? A bacteria? A virus? An intestinal worm? An idea.", "Inception");
-addQuote("The dream is collapsing.", "Inception");
 addQuote("Dream within a dream, ha? I’m impressed. But in my dream you play by my rules--Ah yes. But you, see Mr. Saito, it’s not your dream.", "Inception");
 addQuote("If you can steal an idea from someone’s mind, why can’t you plant one there instead?", "Inception");
 addQuote("Do you want to take a leap of faith, or become an old man filled with regret waiting to die alone?", "Inception");
 addQuote("They say we only use a fraction of our brain’s true potential. Now, that’s when we’re awake. When we’re asleep, our mind can build almost anything.", "Inception");
 addQuote("Now in a dream, we create and perceive our world simultaneously and our mind does this so well that we don’t even know it’s happening.", "Inception");
-addQuote("Listen, if you’re going to perform inception you need imagination.", "Inception");
 addQuote("You need the simplest version of the idea in order for it to grow naturally in the subject’s mind.", "Inception");
 addQuote("In a dream you can cheat architecture into impossible shapes.", "Inception");
 addQuote("They come to be woken up. The dream has become their reality. Who are you to say otherwise?", "Inception");
