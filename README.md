@@ -4,9 +4,9 @@ You can find the instructions below the pictures.
 
 ## Pictures:
 
-<img src="https://i.ibb.co/Jr35Jy8/Screen-Shot-2020-04-11-at-1-33-42-AM.png" alt="Screen-Shot-2020-04-11-at-1-33-42-AM" border="0">
-<img src="https://i.ibb.co/GVDJ4GM/Screen-Shot-2020-04-11-at-1-33-57-AM.png" alt="Screen-Shot-2020-04-11-at-1-33-57-AM" border="0">
-<img src="https://i.ibb.co/6DDM5Nh/Screen-Shot-2020-04-11-at-1-34-17-AM.png" alt="Screen-Shot-2020-04-11-at-1-34-17-AM" border="0">
+<img src="https://i.ibb.co/Jr35Jy8/Screen-Shot-2020-04-11-at-1-33-42-AM.png" alt="Quote 1" border="0">
+<img src="https://i.ibb.co/GVDJ4GM/Screen-Shot-2020-04-11-at-1-33-57-AM.png" alt="Quote 2" border="0">
+<img src="https://i.ibb.co/6DDM5Nh/Screen-Shot-2020-04-11-at-1-34-17-AM.png" alt="Quote 3" border="0">
 
 ## Instructions: 
 
